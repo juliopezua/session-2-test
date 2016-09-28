@@ -1,0 +1,14 @@
+{
+  "name": "pictureviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "Daniel Deverell",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

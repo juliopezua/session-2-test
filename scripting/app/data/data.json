@@ -1,0 +1,23 @@
+{
+	"images":[{
+	"title": "Temple by a river.",
+	"name": "Pagoda",
+	"picture": ["pagoda.jpg"]
+},
+{
+	"title": "Bridge over the river.",
+	"name": "Bridge",
+	"picture": ["bridge.jpg"]
+},
+{
+	"title": "Bamboo is the material.",
+	"name": "Bamboo",
+	"picture": ["bamboo.jpg"]
+},
+{
+	"title": "Red stairway to the temple.",
+	"name": "Stairway",
+	"picture": ["stairway.jpg"]
+}
+]}
+

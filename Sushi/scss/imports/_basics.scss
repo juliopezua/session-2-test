@@ -1,0 +1,133 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	color: $dark-gray;
+	font-size: 100%;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 67em;
+	margin: 0 auto;
+}
+
+header {
+	color: $reddish;
+	padding: 1rem;
+	@media (min-width: $break-one){
+		padding: 0x;
+	}
+}
+
+.info {
+	width: 100%;
+	background-color: $tan;
+	padding: .5rem;
+	border: 1px solid $reddish;
+	font-size: 0.875rem;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	float: left;
+
+	th {
+		text-align: left;
+	}
+
+	ul {
+		float: left;
+		width: 40%;
+		@media (min-width: $break-one) {
+			margin-top: 1em;
+			width: 100%;
+		}
+	}
+
+	table {
+		float: right;
+		width: 40%;
+		@media (min-width: $break-one) {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	@media (min-width: $break-one) {
+		position: absolute;
+		top: 0;
+		left: -12rem;
+		width: 11rem;
+	}
+}
+
+
+article {
+	margin: 0 1em 0 1em;
+	position: relative;
+
+	h2 {
+		color: $reddish;
+	}
+	@media (min-width: $break-one) {
+		margin: 2em 0 0 12em;
+	}
+}
+
+blockquote {
+	width: 100%;
+	padding: 1em;
+	font-size: 1.5em;
+	color: $reddish;
+	font-style: italic;
+	@media (min-width: $break-one) {
+		float: right;
+		width: 40%;
+	}
+}
+
+p {
+	margin: 1em 0;
+}
+
+ul {
+	list-style: none;
+}
+img {
+	float: right;
+}
+/*nav a:before {
+	padding-left: 1em;
+	content: "Q";
+	}*/
+
+	.p-reviews .t-reviews { 
+		color: #fff; 
+		background: $reddish; 
+	} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+@import "imports/variables";
+@import "imports/basics";
+
+.hidden {
+  display: none;
+}
+
+.options {
+  display: none;
+  text-align: center;
+  padding: 2rem 0;
+  select {
+    margin-right: 2rem;
+  }
+}
+
+svg {
+  display: none;
+}
+

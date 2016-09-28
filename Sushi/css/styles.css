@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  color: #333;
+  font-size: 100%;
+  font-family: Helvetica, arial, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.wrapper {
+  max-width: 67em;
+  margin: 0 auto; }
+
+header {
+  color: #600;
+  padding: 1rem; }
+  @media (min-width: 46.25rem) {
+    header {
+      padding: 0x; } }
+
+.info {
+  width: 100%;
+  background-color: #f0dfb4;
+  padding: .5rem;
+  border: 1px solid #600;
+  font-size: 0.875rem;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  float: left; }
+  .info th {
+    text-align: left; }
+  .info ul {
+    float: left;
+    width: 40%; }
+    @media (min-width: 46.25rem) {
+      .info ul {
+        margin-top: 1em;
+        width: 100%; } }
+  .info table {
+    float: right;
+    width: 40%; }
+    @media (min-width: 46.25rem) {
+      .info table {
+        float: none;
+        width: 100%; } }
+  @media (min-width: 46.25rem) {
+    .info {
+      position: absolute;
+      top: 0;
+      left: -12rem;
+      width: 11rem; } }
+
+article {
+  margin: 0 1em 0 1em;
+  position: relative; }
+  article h2 {
+    color: #600; }
+  @media (min-width: 46.25rem) {
+    article {
+      margin: 2em 0 0 12em; } }
+
+blockquote {
+  width: 100%;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #600;
+  font-style: italic; }
+  @media (min-width: 46.25rem) {
+    blockquote {
+      float: right;
+      width: 40%; } }
+
+p {
+  margin: 1em 0; }
+
+ul {
+  list-style: none; }
+
+img {
+  float: right; }
+
+/*nav a:before {
+	padding-left: 1em;
+	content: "Q";
+	}*/
+.p-reviews .t-reviews {
+  color: #fff;
+  background: #600; }
+
+.hidden {
+  display: none; }
+
+.options {
+  display: none;
+  text-align: center;
+  padding: 2rem 0; }
+  .options select {
+    margin-right: 2rem; }
+
+svg {
+  display: none; }
